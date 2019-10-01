@@ -1,6 +1,6 @@
-import subjectExample from './subject'
+import behaviorSubjectExample from './behaviorSubject'
 
-subjectExample(addItem);
+behaviorSubjectExample(addItem);
 
 function addItem(value:any) {
     const node = document.createElement('li');
