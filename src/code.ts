@@ -1,7 +1,6 @@
-import observableExample from './observable'
-import observable from './observable';
+import subjectExample from './subject'
 
-observable(addItem);
+subjectExample(addItem);
 
 function addItem(value:any) {
     const node = document.createElement('li');
