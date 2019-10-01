@@ -1,6 +1,6 @@
-import mapExample from './mapExample'
+import pluckExample from './pluckExample'
 
-mapExample(addItem);
+pluckExample(addItem);
 
 function addItem(value:any) {
     const node = document.createElement('li');
