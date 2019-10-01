@@ -1,6 +1,6 @@
-import pluckExample from './pluckExample'
+import skipUntilExample from './skipUntilExample'
 
-pluckExample(addItem);
+skipUntilExample(addItem);
 
 function addItem(value:any) {
     const node = document.createElement('li');
