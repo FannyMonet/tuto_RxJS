@@ -1,6 +1,6 @@
-import mergeExample from './mergeExample'
+import mapExample from './mapExample'
 
-mergeExample(addItem);
+mapExample(addItem);
 
 function addItem(value:any) {
     const node = document.createElement('li');
