@@ -1,6 +1,6 @@
-import behaviorSubjectExample from './behaviorSubject'
+import replaySubjectExample from './behaviorSubject'
 
-behaviorSubjectExample(addItem);
+replaySubjectExample(addItem);
 
 function addItem(value:any) {
     const node = document.createElement('li');
